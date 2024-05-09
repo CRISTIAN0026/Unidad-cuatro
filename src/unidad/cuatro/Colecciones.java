@@ -62,11 +62,6 @@ public class Colecciones {
             i++;
         } while (i < lista.size());
 
-        // Ordenar la lista
-        System.out.println("\nOrdenar la lista");
-        Collections.sort(lista);
-        System.out.println("Lista ordenada: " + lista);
-
 
         // Set
         Set<PersonajeBiblico> conjunto = new HashSet<>();
